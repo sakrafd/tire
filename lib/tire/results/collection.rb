@@ -5,7 +5,7 @@ module Tire
       include Enumerable
       include Pagination
 
-      attr_reader :time, :total, :options, :facets
+      attr_reader :time, :total, :options, :facets, :response
 
       def initialize(response, options={})
         @response = response
